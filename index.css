@@ -1,0 +1,171 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url(./sahara.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    text-align:end;
+    padding-right:250px;
+    padding-top: 20px;
+    display: block;
+}
+li {
+    display: inline;
+    margin-right: 4%;
+}
+.home{
+    font-size: 20px;
+    color: white;
+}
+.camel{
+    background-image: url(./imgbin_origami-paper-u6298u7eb8u6b65u9aa4u56fe-animal-png.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.sahara{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 10%;
+}
+.lorem{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-top:200px;
+    margin-left:10%;
+}
+button{
+    width:200px;
+    height:45px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    margin-top:330px;
+    margin-left: 10%;
+}
+.grid-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    margin-left: 10px;
+    grid-template-rows: 100px; 
+}
+.grid-items{
+    width:220px;
+    height: 300px;
+    border-radius: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    color: white;
+    padding-top:0px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.western{
+    background-image: url(./images1.jfif);
+    margin-top: -100px;
+    margin-left:700px;
+}
+.western:hover{
+    cursor: pointer;
+    margin-top: -120px;
+}
+.bagawat{
+    background-image: url(./images2.jfif);
+    margin-top: -100px;
+    margin-left:50px;
+}
+.bagawat:hover{
+    cursor: pointer;
+    margin-top:-120px;
+}
+.giza{
+    background-image: url(./images3.jpg);
+    margin-top:150px;
+    margin-left: 700px;
+}
+.giza:hover{
+    cursor: pointer;
+    margin-top:130px;
+}
+.kalahari{
+    background-image: url(./image4.webp);
+    margin-top:150px;
+    margin-left: 50px;
+}
+.kalahari:hover{
+    cursor: pointer;
+    margin-top:130px;
+}
+.box-shadow-menu { 
+    position: relative;
+    margin-left: 1300px;
+    top:-20px;
+    margin-top:-100px
+}
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1em;
+    height: 0.15em;
+    background: rgb(255, 255, 255);
+    box-shadow: 
+      0 0.25em 0 0 rgb(255, 255, 255),
+      0 0.5em 0 0 rgb(255, 255, 255);
+}
+
+@media (min-width:200px) and (max-width:1200px) 
+{
+   body{
+    height:2500px;
+   } 
+}
+@media (min-width:200px) and (max-width:1200px) 
+{
+    .grid-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    position:relative;
+    margin-left: 10px;
+    grid-template-rows: 100px; 
+}
+.grid-items{
+    width:450px;
+    height: 250px;
+}
+.western{
+    margin-top: 400px;
+    margin-left: 1px;
+  
+}
+.bagawat{
+    margin-top: 600px;
+    margin-left: 1px;
+}
+.giza{
+    margin-top:30px;
+    margin-left:1px;
+}
+.kalahari{
+    margin-top:30px;
+    margin-left: 1px;
+}
+}
+
+
